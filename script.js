@@ -3,7 +3,7 @@ console.log(gallery);
 
 let images = []
 
-for (let i = 1; i < 12; i++) {
+for (let i = 1; i < 19; i++) {
     images.push(`
     <div class="picture"id="pic">
     <p>
@@ -11,15 +11,19 @@ for (let i = 1; i < 12; i++) {
     </p>
     <p>
     ${i}
+    @dimateph
     </p>
     </div>
     `)
 }
 
-$gallery.innerHTML = images.join('')
+gallery.innerHTML = images.join('')
 
 const $imagelist = document.querySelectorAll('.picture')
 console.log($imagelist)
+
+
+
 
 
 
