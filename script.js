@@ -23,16 +23,6 @@ const $imagelist = document.querySelectorAll('.picture')
 console.log($imagelist)
 
 
-var copy = document.getElementById('.copy');
-function copy(){
- document.getElementsByTagName(".picture")[0].setAttribute("src", url)
-}
-
-
-
-
-
-
 /*let pictures = images.join(",");
 console.log(pictures);
 
